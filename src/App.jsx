@@ -213,7 +213,7 @@ const AuthForm = ({ onAuth, authMode, setAuthMode }) => {
         {authMode === 'login' ? 'Iniciar Sesión' : 'Registrarse'}
       </h2>
 
-      <form onSubmit={handleSubmit} className="space-y-4">
+      <form onSubmit={handleSubmit} className="space-y-4 flex flex-col">
         {authMode === 'register' && (
           <input
             type="text"
