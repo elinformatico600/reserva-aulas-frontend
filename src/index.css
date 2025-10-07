@@ -23,11 +23,17 @@ a:hover {
 }
 
 body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+    /* **Corrección para anular los estilos del navegador y centrar:** */
+    margin: 0 !important; 
+    display: flex !important;
+    
+    /* Centrado explícito (reemplaza 'place-items: center' y asegura el centrado): */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;    /* Centra verticalmente */
+
+    /* Reglas existentes que son correctas: */
+    min-width: 320px;
+    min-height: 100vh;
 }
 
 h1 {
