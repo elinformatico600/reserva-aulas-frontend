@@ -243,7 +243,7 @@ const AuthForm = ({ onAuth, authMode, setAuthMode }) => {
         
         <button
           type="submit"
-          className="w-full bg-indigo-600 text-white p-3 rounded-lg font-semibold hover:bg-indigo-700 transition duration-200 shadow-md"
+          className="w-full btn-login-fix shadow-md"
         >
           {authMode === 'login' ? 'Acceder' : 'Crear Cuenta'}
         </button>

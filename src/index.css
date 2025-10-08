@@ -84,3 +84,22 @@ button:focus-visible {
 .auth-form-container button {
     width: 100%;
 }
+/* --- ESTILO FORZADO DEL BOTÓN DE ACCESO --- */
+.btn-login-fix {
+    /* Color principal: Índigo 600 */
+    background-color: #4f46e5;
+    color: white;
+    border-radius: 0.5rem; /* rounded-lg */
+    
+    /* Propiedades de texto y espaciado (p-3 y font-semibold) */
+    padding: 0.75rem;
+    font-weight: 600;
+    
+    /* Transición para el efecto hover */
+    transition: background-color 0.2s;
+}
+
+.btn-login-fix:hover {
+    /* Color hover: Índigo 700 */
+    background-color: #4338ca;
+}
