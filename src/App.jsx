@@ -2,9 +2,10 @@ import React, { useState, useEffect, useMemo } from 'react';
 import { LogOut, LayoutGrid, Users, Calendar, MapPin, Search, CalendarCheck, BookOpenCheck } from 'lucide-react'; 
 
 // URL base de tu backend (Asegúrate de cambiar esto si la URL de tu servidor es diferente)
-const BASE_URL = 'http://localhost:3000/api'; 
-const AUTH_URL = 'http://localhost:3000'; 
 
+const RENDER_URL = 'https://reserva-aulas-backend.onrender.com'; 
+const BASE_URL = `${RENDER_URL}/api`; 
+const AUTH_URL = RENDER_URL; 
 // Bloques de hora fijos y días de la semana
 const TIME_SLOTS = [1, 2, 3, 4, 5, 6];
 const DAYS_OF_WEEK = ['Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes'];
