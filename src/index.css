@@ -72,3 +72,15 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+/* Corrección de maquetación para el formulario de Login */
+.auth-form-container {
+    display: flex;
+    flex-direction: column;
+    /* Esto es crucial para apilar verticalmente los inputs */
+}
+
+/* Aseguramos que los inputs y el botón ocupen el 100% de su contenedor */
+.auth-form-container input,
+.auth-form-container button {
+    width: 100%;
+}
