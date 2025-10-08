@@ -76,6 +76,7 @@ button:focus-visible {
 .auth-form-container {
     display: flex;
     flex-direction: column;
+    gap: 1rem; /* Añade esta línea para forzar el espaciado vertical (16px) */
     /* Esto es crucial para apilar verticalmente los inputs */
 }
 
